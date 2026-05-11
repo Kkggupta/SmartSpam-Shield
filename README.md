@@ -7,7 +7,7 @@ Features
 
 Detects SMS spam in real-time.
 
-Implements multiple ML algorithms: Support Vector Classifier (SVC), Random Forest, Logistic Regression, Decision Tree, KNN, and XGBoost.
+Implements multiple ML algorithms: Support Vector Classifier (SVC), Random Forest, Logistic Regression, Decision Tree, KNN, and XGBoost and BERT.
 
 Preprocessing techniques: lowercasing, tokenization, stopword removal, stemming, and TF-IDF vectorization.
 
@@ -35,16 +35,7 @@ Evaluation – Measured models using accuracy, precision, recall, and F1-score.
 
 Deployment – Integrated the best-performing model into a Streamlit web app for real-time predictions.
 
-Results
-Model	Accuracy	Precision
-SVC	97.21%	97.03%
-Random Forest	97.13%	100%
-Logistic Regression	95.42%	96.52%
-Decision Tree	92.46%	87.75%
-KNN	90.76%	100%
-XGBoost	96.50%	99.17%
 
-Best Models: Random Forest and SVC (>97% accuracy)
 
 Technologies Used
 
